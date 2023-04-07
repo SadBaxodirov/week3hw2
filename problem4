@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int N = 0;
+    cout<<"Please enter the number of students: ";
+    cin>>N;
+    if (N%24==0){
+        cout<<"The number of computers that stay free is 0";
+    } else{
+        cout<<"The number of computers that stay free is "<<24-N%24;
+    }
+
+    return 0;
+}
