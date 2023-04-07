@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float Ctemp = 0;
+    cin>>Ctemp;
+    cout<<"The temperature in Farenheit is equal to "<<(Ctemp*9/5)+32;
+
+    return 0;
+}
